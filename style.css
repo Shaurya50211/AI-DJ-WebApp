@@ -1,0 +1,60 @@
+body {
+    background-size: cover;
+    font-family: 'Londrina Solid', cursive;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.dj-left {
+    float: left;
+}
+
+.dj-right {
+    float: right;
+}
+
+.speed-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#speed, #volume {
+    font-size: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: #f3ef18;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: rgb(169, 175, 90)
+}
+
+button:active {
+    background-color: #c2ce5b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+canvas{
+    border: groove;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 30px white;
+}
